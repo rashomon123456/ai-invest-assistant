@@ -1,0 +1,7 @@
+# Streamlit Community Cloud 部署依赖
+# 只需要这三个；pandas / numpy / requests / curl_cffi 等由它们自动带下来。
+# 不要 pin numpy —— 本地是 1.24.4，云端 Python 3.12 的 pandas 2.x 要求 >=1.26。
+
+streamlit==1.50.0
+akshare==1.18.88
+openai==2.48.0
